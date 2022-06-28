@@ -53,7 +53,7 @@ public class ClienteDao {
          Connection conexion = conectar(); 
          String sql = "INSERT INTO `java` (`id`, `nombre`, `apellido`, `telefono`, `email`) VALUES"
                  + " (NULL, "
-                 + "'"+cliente.getNombre()+"',"
+                 + " '"+cliente.getNombre()+"',"
                  + " '"+cliente.getApellido()+"',"
                  + " '"+cliente.getTelefono()+"',"
                  + " '"+cliente.getEmail()+"');";
